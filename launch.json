@@ -1,0 +1,122 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New Year Special Offer</title>
+
+<style>
+
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+text-align:center;
+padding:40px;
+height:100vh;
+background: linear-gradient(to right,#f2994a,#d94c8a);
+color:white;
+}
+
+.offer-box{
+background:#ff3c00;
+display:inline-block;
+padding:20px 40px;
+border-radius:15px;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+margin-bottom:30px;
+}
+
+.offer-box h3{
+margin:0;
+font-size:18px;
+}
+
+.offer-box h1{
+margin:5px;
+}
+
+.offer-box button{
+padding:10px 20px;
+border:none;
+background:white;
+color:#ff3c00;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+}
+
+.products img{
+width:120px;
+margin:10px;
+transition:transform 0.3s;
+}
+
+.products img:hover{
+transform:scale(1.2);
+}
+
+.text h2{
+color:#7a1fa2;
+}
+
+.discount{
+color:#ffe082;
+}
+
+.card{
+background:white;
+color:black;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="offer-box">
+<h3>70% OFF</h3>
+<h1>SPECIAL OFFER</h1>
+<button onclick="shopNow()">SHOP NOW</button>
+</div>
+
+<div class="products">
+<img src="https://pngimg.com/uploads/washing_machine/washing_machine_PNG15575.png">
+<img src="https://pngimg.com/uploads/refrigerator/refrigerator_PNG9059.png">
+<img src="https://pngimg.com/uploads/camera/camera_PNG102.png">
+<img src="https://pngimg.com/uploads/headphones/headphones_PNG7644.png">
+</div>
+
+<div class="text">
+<h2>BEST NEW YEAR SPECIAL OFFERS</h2>
+<p>Best time to buy. Save upto <b>70% cash</b></p>
+
+<h3 class="discount">10% INSTANT DISCOUNT</h3>
+<p>with SBI Credit Cards</p>
+
+<button class="card">SBI Card</button>
+</div>
+
+</div>
+
+<script>
+
+function shopNow()
+{
+alert("Welcome! Start shopping and get 70% OFF!");
+}
+
+</script>
+
+</body>
+</html>
+```
